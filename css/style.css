@@ -322,7 +322,7 @@ secciones de la pagina de inicio */
     text-align: center;
 }
 
-#nosotros .col-lg-7 h3 {
+#nosotros h3 {
     padding: 50px;
 }
 
@@ -370,7 +370,7 @@ secciones de la pagina de inicio */
         font-size: 18px;
     }
 
-    #nosotros .col-lg-7 h3 {
+    #nosotros h3 {
         padding: 11px;
     }
 
@@ -418,7 +418,11 @@ secciones de la pagina de inicio */
 }
 
 .platillos{
-    padding: 96px 0px 214px;
+    padding: 96px 0px 114px;
+}
+
+.caja {
+    padding-bottom: 40px;
 }
 
 .bloque-card {
@@ -429,12 +433,16 @@ secciones de la pagina de inicio */
     margin-bottom: 25px;
 }
 
-.bloque-card .col-lg-7 {
-    padding-top: 20px;
+.descripcion-plato {
+    padding-top: 15px;
 }
 
 .bloque-card img {
     width: 100%;
+}
+
+.caja-plato {
+    padding-top: 15px;
 }
 
 .bloque-card {
@@ -446,14 +454,22 @@ secciones de la pagina de inicio */
     font-size: 16px;
 }
 
-@media (max-width: 500px) {
-    .carta p {
+.subtitulo-carta2 {
+    padding-top: 100px;
+    color: #49C4CC;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    #parrafo-carta {
         color: #003F5B;
-        font-size: 40px;
+        font-size: 20px;
     }
 
-    .subtitulo-carta    {
-         padding-top: 70px;
+    .subtitulo-carta {
+        padding-top: 70px;
         padding-bottom: 20px;
         margin-bottom: 40px;
         color: #BB852B;
@@ -473,12 +489,12 @@ secciones de la pagina de inicio */
         padding: 20px;
     }
 
-    .bloque-card .col-lg-7 {
+    .descripcion-plato {
         padding-top: 40px;
     }
 
     .bloque-card img {
-    width: 100%;
+        width: 200px;
     }
 
     .bloque-card {
@@ -487,7 +503,19 @@ secciones de la pagina de inicio */
     }
     .descripcion-carta {
         text-align: center;
-        font-size: 26px;
+        font-size: 18px;
+    }
+    
+    .bloque-card strong {
+        font-size: 18px;
+    }
+
+    .subtitulo-carta2 {
+        padding-top: 20px;
+        color: #49C4CC;
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
     }
 }
 /*fin de estilos carta*/
@@ -596,7 +624,11 @@ form textarea {
     padding: 15px 0px 15px 0px;
 }
 
+.caja-mapa {
+    padding-bottom: 50px;
+} 
 
+/*fin de estilos carta*/
 
 /* footer comienzo */
 footer {
@@ -608,6 +640,7 @@ footer h2 {
     color: white;
     font-size: 60px;
     margin-bottom: 40px;
+    padding-left: 0;
 }
 
 footer h4 {
@@ -616,22 +649,25 @@ footer h4 {
     margin-bottom: 12px;
 }
 
-.lista-final ul {
+footer ul {
     list-style: none;
 }
 
-.contacto ul {
+.contacto {
     display: flex;
     justify-content: space-between;
+}
+
+footer .contacto {
     list-style: none;
+    padding: 0;
 }
 
-.contacto ul a {
+footer .contacto a {
     font-size: 30px;
-    text-decoration: none;
 }
 
-.lista-final li {
+footer .lista-final li {
     margin-bottom: 20px;
 }
 
@@ -653,7 +689,7 @@ footer section a:hover {
     }
 
     footer .contacto a {
-        padding: 5px;
+        padding: 10px;
         font-size: 32px;
     }
 
