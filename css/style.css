@@ -286,6 +286,24 @@ article img {
     color: #BB852B;
     padding-bottom: 120px;
 }
+
+@media (max-width: 576px) {
+    .nuestro-restaurant {
+        font-size: 35px;
+        font-weight: bold;
+        color: #003F5B;
+        padding-top: 120px;
+        margin-bottom: 50px;
+    }
+    
+    #parrafo-restaurant {
+        font-size: 20px;
+        font-family: 'Mitr', sans-serif;
+        color: #BB852B;
+        padding-bottom: 120px;
+    }
+}
+
 /* terminacion de las 
 secciones de la pagina de inicio */
 
