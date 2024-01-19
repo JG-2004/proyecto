@@ -1,0 +1,651 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* inicio del header */
+header {
+    position: absolute;
+}
+
+header img {
+    border-radius: 100%;
+    margin-top: 15px;
+    width: 100%;
+}
+
+header ul {
+    padding-top: 30px;
+    margin-top: 15px;
+    overflow: hidden;
+    list-style: none;
+    padding-left: 0;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    color: white;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+header nav ul li a {
+    transition: color 0.3 ease;
+    text-decoration-line: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #49C4CC;
+}
+
+#imagen-header-inicio {
+    background-image: url("/img/img_header.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 230px;
+    padding-bottom: 265px;
+}
+
+#imagen-header-inicio h1 {
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+#imagen-header-contacto {
+    background-image: url("/img/img-header-contacto.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 230px;
+    padding-bottom: 320px;
+}
+
+#imagen-header-contacto h1 {
+    color: white;
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+#imagen-header-nosotros {
+    background-image: url("/img/img_header_nostros.png  ");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 230px;
+    padding-bottom: 320px;
+}
+
+#imagen-header-nosotros h1 {
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+#imagen-header-carta {
+    background-image: url("/img/img-header-carta.png  ");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 230px;
+    padding-bottom: 320px;
+}
+
+#imagen-header-carta h1 {
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+/*header o nav en celular*/
+#checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.la39 {
+    display: none;
+    margin-top: 80px;
+}
+
+@media (max-width: 576px) {
+
+    #imagen-header-nosotros {
+        height: 241px;
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    header nav {
+        height: 100%;
+        margin-left: 3rem;
+        background-color: transparent;
+    }
+
+    header nav ul{
+        position: fixed;
+        background-color: #BB852B;
+        width: 60%;
+        height: 100%;
+        top: 80px;
+        margin: 0;
+        position: fixed;
+        right: -100%;
+        text-align: center;
+        transition: all .5s;
+        border-radius: 10px;
+    }
+    
+    header nav ul li a{
+        font-size: 14px;
+    }
+
+    #checkbtn {
+        display: block;
+        width: 100px;
+        margin: 0;
+        margin-right: 6px;
+        padding-right: 30px;
+        background-color: transparent;
+        
+    }
+
+    #menu {
+        display: block;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header nav ul li {
+        display: block;
+        float: none;
+        border-bottom:1px solid rgba(225, 225, 225, 225);
+    }
+
+    #check:checked ~ ul {
+        right: 0%;
+    }
+
+    .la39 {
+        display: block;
+        color: white;
+        font-size: 16px;
+    }
+}
+
+/* fin del header */
+
+/* comienzo de las secciones en general */
+
+/* secciones de la pagina de inicio */
+article img {
+    width: 100%;
+}
+
+.subtitulo {
+    padding: 110px 0px 25px 0px;
+    color: #003F5B;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-bottom: 4px solid #003F5B;
+}
+  
+
+.platos {
+    border-radius: 3px;
+    box-shadow: 0 0.10rem 0.6rem rgb(146, 146, 146);
+}
+
+.platos img {
+    height: 255px;
+    padding: 15px 0px 8px 0px;
+}
+
+.platos h3 {
+    font-family: 'Kaushan Script', cursive;
+    color: #BB852B;
+}
+
+.pedidos {
+    padding-top: 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #003F5B;
+    text-transform: uppercase;
+}
+
+.parrafo-pedidos {
+    font-size: 20px;
+    font-family: 'Mitr', sans-serif;
+    color: #BB852B;
+}
+
+#parrafo-strong {
+    font-size: 25px;
+    font-weight: bold;
+    color: #003F5B;
+    padding-bottom: 30px;
+}
+
+.pedidos-logo {
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 45px;
+}
+
+.nuestro-restaurant {
+    font-size: 45px;
+    font-weight: bold;
+    color: #003F5B;
+    padding-top: 120px;
+    margin-bottom: 50px;
+}
+
+#parrafo-restaurant {
+    font-size: 25px;
+    font-family: 'Mitr', sans-serif;
+    color: #BB852B;
+    padding-bottom: 120px;
+}
+/* terminacion de las 
+secciones de la pagina de inicio */
+
+/* inicio de estilos de Nosotros*/
+
+
+#nosotros img {
+    width: 100%;
+}
+
+#nosotros p {
+    color: #BB852B;
+    font-size: 40px;
+}
+
+.subtitulo-nosotros {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    color: #49C4CC;
+    font-size: 38px;
+    font-weight: bold;
+    border-bottom: 4px solid #49C4CC;
+}
+
+.article1 {
+    padding-bottom: 50px;
+}
+
+#nosotros h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 48px;
+    color: #49C4CC;
+    text-align: center;
+}
+
+#nosotros .col-lg-7 h3 {
+    padding: 50px;
+}
+
+.subtitulo-nosotros2 {
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 170px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    color: #49C4CC;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitulo-nosotros3 {
+    padding-top: 170px;
+    padding-bottom: 83px;
+    margin-bottom: 40px;
+    color: #49C4CC;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .subtitulo-nosotros {
+        padding-top: 70px;
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+        color: #49C4CC;
+        font-size: 28px;
+        font-weight: bold;
+        border-bottom: 4px solid #49C4CC;
+    }
+    
+    #nosotros h3 {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 24px;
+        color: #49C4CC;
+        text-align: center;
+    }
+    
+    #nosotros p {
+        color: #BB852B;
+        font-size: 18px;
+    }
+
+    #nosotros .col-lg-7 h3 {
+        padding: 11px;
+    }
+
+    .article1 {
+        padding-bottom: 30px;
+    }
+
+    .subtitulo-nosotros2 {
+        font-family: 'Kaushan Script', cursive;
+        padding-top: 38px;
+        margin-bottom: 13px;
+        color: #49C4CC;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .subtitulo-nosotros3 {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #49C4CC;
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+/*fin de estilos de nosotros*/
+
+/*comienzo estilos carta*/
+
+.carta p{
+    color: #003F5B;
+    font-size: 40px;
+}
+
+.subtitulo-carta{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    color: #BB852B;
+    font-size: 48px;
+    font-weight: bold;
+    border-bottom: 4px solid #BB852B;
+}
+
+.platillos{
+    padding: 96px 0px 214px;
+}
+
+.bloque-card {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.bloque-card .col-lg-7 {
+    padding-top: 20px;
+}
+
+.bloque-card img {
+    width: 100%;
+}
+
+.bloque-card {
+    transition: all 0.3s ease;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+.descripcion-carta {
+    text-align: center;
+    font-size: 16px;
+}
+
+@media (max-width: 500px) {
+    .carta p {
+        color: #003F5B;
+        font-size: 40px;
+    }
+
+    .subtitulo-carta    {
+         padding-top: 70px;
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+        color: #BB852B;
+        font-size: 28px;
+        font-weight: bold;
+        border-bottom: 4px solid #BB852B;
+    }
+
+    .platillos {
+        padding: 56px 0px 104px;
+    }
+
+    .bloque-card {
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .bloque-card .col-lg-7 {
+        padding-top: 40px;
+    }
+
+    .bloque-card img {
+    width: 100%;
+    }
+
+    .bloque-card {
+        transition: all 0.3s ease;
+        box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+    }
+    .descripcion-carta {
+        text-align: center;
+        font-size: 26px;
+    }
+}
+/*fin de estilos carta*/
+.seccion-contacto {
+    padding: 35px 0px 35px 0px;
+} 
+
+.seccion-contacto h4 {
+    font-family: 'Mitr', sans-serif;
+    color: #BB852B;
+}
+
+.formulario {
+    background-color: #49c3cc60;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+}
+
+form label {
+    font-family: 'Kaushan Script', cursive;
+    color: #003F5B;
+    font-weight: bold;
+}
+
+form input {
+    width: 95%;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+form select {
+    width: 95%;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+form textarea {
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    width: 95%;
+}
+
+.boton {
+    background-color: #BB852B;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    border-radius: 3PX;
+}
+
+.seccion {
+    box-shadow: 0 0.10rem 0.6rem rgb(146, 146, 146);
+    height: 410px;
+}
+
+.seccion img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.seccion ul {
+    display: flex;
+    list-style: none;
+}
+
+.seccion ul li img {
+    width: 60px;
+    border-radius: 4px;
+    margin: 8px 8px 0px 8px;
+}
+
+.seccion p {
+    color: #BB852B;
+    font-family: 'Mitr', sans-serif;
+
+}
+
+.seccion strong {
+    color: #003F5B;
+    font-family: 'Mitr', sans-serif;
+
+}
+
+.mapa {
+    border-radius: 4px;
+    box-shadow: 0 0.10rem 0.6rem rgb(146, 146, 146);
+}
+
+/* footer comienzo */
+footer {
+    padding-top: 40px;
+    background-color: black;
+}
+
+footer h2 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 40px;
+    padding-left: 0;
+}
+
+footer h4 {
+    color: white;
+    padding-left: 0;
+    margin-bottom: 12px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contacto {
+    list-style: none;
+    padding: 0;
+}
+
+footer .contacto a {
+    font-size: 30px;
+}
+
+footer .lista-final li {
+    margin-bottom: 20px;
+}
+
+footer section a {
+    transition: color 0.3 ease;
+    text-decoration-line: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255)
+}
+
+footer section a:hover {
+    color: #49C4CC;
+}
+
+@media (max-width: 576px) {
+    footer {
+        padding-top: 40px;
+        background-color: black;
+    }
+
+    footer .contacto a {
+        padding: 5px;
+        font-size: 32px;
+    }
+
+    footer h2 {
+        color: white;
+        font-size: 32px;
+        padding-left: 0;
+    }
+
+    footer .lista-final a {
+        font-size: 18px;
+    }
+}
+/* terminacion del footer */
