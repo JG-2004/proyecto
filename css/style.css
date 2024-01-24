@@ -371,30 +371,31 @@ secciones de la pagina de inicio */
 }
 
 @media (max-width: 576px) {
+
     .subtitulo-nosotros {
         padding-top: 70px;
         padding-bottom: 20px;
         margin-bottom: 40px;
         color: #49C4CC;
-        font-size: 28px;
+        font-size: 24px;
         font-weight: bold;
         border-bottom: 4px solid #49C4CC;
     }
     
     #nosotros h3 {
         font-family: 'Kaushan Script', cursive;
-        font-size: 24px;
+        font-size: 16px;
         color: #49C4CC;
         text-align: center;
     }
     
     #nosotros p {
         color: #BB852B;
-        font-size: 18px;
+        font-size: 13px;
     }
 
     #nosotros h3 {
-        padding: 11px;
+        padding: 15px;
     }
 
     .article1 {
@@ -404,18 +405,19 @@ secciones de la pagina de inicio */
     .subtitulo-nosotros2 {
         font-family: 'Kaushan Script', cursive;
         padding-top: 38px;
-        margin-bottom: 13px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
         color: #49C4CC;
-        font-size: 24px;
+        font-size: 16px;
         font-weight: bold;
         text-align: center;
     }
 
     .subtitulo-nosotros3 {
-        padding-top: 20px;
-        padding-bottom: 30px;
+        padding-top: 15px;
+        padding-bottom: 5px;
         color: #49C4CC;
-        font-size: 28px;
+        font-size: 16px;
         font-weight: bold;
         text-align: center;
     }
@@ -626,6 +628,7 @@ form textarea {
 }
 
 .mapa {
+    margin-bottom: 40px;
     border-radius: 4px;
     box-shadow: 0 0.10rem 0.6rem rgb(146, 146, 146);
 }
