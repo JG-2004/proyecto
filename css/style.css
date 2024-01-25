@@ -321,7 +321,7 @@ secciones de la pagina de inicio */
 
 #nosotros p {
     color: #BB852B;
-    font-size: 40px;
+    font-size: 42px;
 }
 
 .subtitulo-nosotros {
@@ -335,6 +335,7 @@ secciones de la pagina de inicio */
 }
 
 .article1 {
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -346,7 +347,7 @@ secciones de la pagina de inicio */
 }
 
 #nosotros h3 {
-    padding: 50px;
+    padding-bottom: 50px;
 }
 
 .subtitulo-nosotros2 {
@@ -377,7 +378,7 @@ secciones de la pagina de inicio */
         padding-bottom: 20px;
         margin-bottom: 40px;
         color: #49C4CC;
-        font-size: 24px;
+        font-size: 19px;
         font-weight: bold;
         border-bottom: 4px solid #49C4CC;
     }
@@ -391,14 +392,15 @@ secciones de la pagina de inicio */
     
     #nosotros p {
         color: #BB852B;
-        font-size: 13px;
+        font-size: 14px;
     }
 
     #nosotros h3 {
-        padding: 15px;
+        padding-bottom: 11px;
     }
 
     .article1 {
+        padding-top: 10px;
         padding-bottom: 30px;
     }
 
@@ -716,17 +718,21 @@ footer section a:hover {
 
     footer .contacto a {
         padding: 10px;
-        font-size: 32px;
+        font-size: 18px;
     }
 
     footer h2 {
         color: white;
-        font-size: 32px;
+        font-size: 22px;
         padding-left: 0;
     }
 
-    footer .lista-final a {
+    footer h4 {
         font-size: 18px;
+    }
+
+    footer .lista-final a {
+        font-size: 16px;
     }
 }
 /* terminacion del footer */
