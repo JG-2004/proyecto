@@ -397,6 +397,7 @@ secciones de la pagina de inicio */
 
     #nosotros h3 {
         padding-bottom: 8px;
+        margin: 0;
     }
 
     .article1 {
